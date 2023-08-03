@@ -1,6 +1,8 @@
 // src/environments/environment.prod.ts
 export const environment = {
     production: true,
-    apiUrl: 'https://your-production-api.com', // Production API URL
+    config:{
+      apiUrl: 'http://localhost:3000', // Development API URL
+    }
   };
   
